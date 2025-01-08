@@ -124,7 +124,7 @@ public class Network {
         }
        String ans = "";
        for (int i=0; i<userCount; i++) {
-            ans = ans + System.lineSeparator() + users[i].toString();
+            ans = ans + "/n" + users[i].toString();
        }
        return ans;
     }
